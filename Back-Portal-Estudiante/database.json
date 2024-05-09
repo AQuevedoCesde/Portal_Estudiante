@@ -1,47 +1,6 @@
 {
 
   "Estudiantes": [
-    {
-      "id": "1013652187",
-      "email": "Anfelqt209@hotmail.com",
-      "telefono": "3197674990",
-      "nombres": "Andres Felipe",
-      "apellidos": "Quevedo",
-      "edad": "29",
-      "genero": "Masculino",
-      "sede": "Medellin",
-      "programa": "3",
-      "asignacioUno": "CIENCIA",
-      "asignacioDos": "MATEMATICAS",
-      "asignacioTres": "INGLES"
-    },
-    {
-      "id": "fdsf",
-      "email": "fsdfsd",
-      "telefono": "fdsfsdf",
-      "nombres": "fsdf",
-      "apellidos": "fsdf",
-      "edad": "fsdfffd",
-      "genero": "Femenino",
-      "sede": "Medellin",
-      "programa": "2",
-      "asignacioUno": "fdsfsd",
-      "asignacioDos": "fsdfsf",
-      "asignacioTres": "fsfd"
-    },
-    {
-      "id": "102045456",
-      "email": "Andres Queveodsadsafsad",
-      "telefono": "125456",
-      "nombres": "dfasdfsdaf",
-      "apellidos": "dfsafsdafasd",
-      "edad": "23",
-      "genero": "Masculino",
-      "sede": "Medellin",
-      "programa": "1",
-      "asignacioUno": "dsfsda",
-      "asignacioDos": "fsdafsdaf",
-      "asignacioTres": "fsdfsad"
-    }
+   
   ]
 }
