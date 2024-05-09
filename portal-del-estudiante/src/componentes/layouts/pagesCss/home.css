@@ -1,0 +1,189 @@
+
+body{
+    margin: 0;
+    padding: 0;
+     background-image: url('/src/assets/fondo.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+/*Header styles*/
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 100%;
+}
+
+h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+}
+
+#Registrar{
+    display: flex;
+    font-weight: bolder;
+    margin-top: 23px;
+    width: 100px;
+    height: 54px;
+    background: #000000;
+    border-radius: 22px; 
+}
+p{
+    color: aliceblue;
+    margin-left: 15px;
+    font-weight: bolder;
+    font-family: "Abhaya Libre", serif;
+    margin-top: 7px;
+}
+
+#out{
+    border-radius: 100%;
+    padding: 10px;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: -7px;
+    background-color: #000000;
+}
+
+#in{
+    border-radius: 100%;
+    padding: 2px;
+    width: 34px;
+    background-image: url(/src/assets/fondo.png);
+}
+
+img[alt="imgAdd"]{
+    width: 25px;
+    margin: 0;
+    display: inline-block;
+}
+
+.contenedoPrincipal{
+    display: flex;
+}
+/*Nav left styles*/
+hr{
+    border: 1px dashed #999
+}
+nav{
+     width: 17%;
+    height: 77vh;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: "Abhaya Libre", serif; 
+    position: relative;
+}   
+ul{
+    list-style-type: none;
+}
+#tituloGenero{
+    font-size: 25px;
+    font-weight: 800;
+}
+#ItemUno{
+    margin-top: 20px;
+}
+#Itemdos{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+#ItemUno,#Itemdos{
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight:600;
+}
+input[type="checkbox"] {
+    opacity: 0.5; 
+  }
+
+
+#listaProgramasDes{
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.listaProgramas{
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contenedorSelectores{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+#vacio{
+height: 35%;
+}
+.selectores{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    justify-content: space-around;
+    width: 100%;
+    height: 75%;
+}
+.selector{
+    
+    width: 10px;
+}
+main{
+    width: 80%;
+}
+
+.tarjetasInformacioEstudiante{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    font-family: "Abhaya Libre", serif; 
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    width: 250px;
+    height: 300px;
+}
+#programa{
+    margin-top: -15px;
+    font-weight: lighter;
+}
+#sede{
+    margin-top: -15px;
+    margin-bottom: -5px;
+    font-weight: lighter;
+}
+#tituloPersonal{
+    margin-left: -25px;
+    font-weight: 9000;
+}
+.listadoPersonal{
+    text-align:left;
+    margin-top: -15px;
+}
+
+img[alt="editar"]{
+    width: 15px;
+}
+/*Footer styles*/
+footer{
+    width: 100%; 
+   display: flex;
+   margin-top: 90px;
+   font-family: "Abhaya Libre", serif; 
+   font-weight: bolder;
+   justify-content: space-around;
+    background-color: #D9D9D9;
+} 

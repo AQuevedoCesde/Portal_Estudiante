@@ -1,0 +1,79 @@
+.reguistrarUsuario{
+   text-align: center;
+   font-family: "Abhaya Libre", serif; 
+}
+.infContac{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Nombreyapellido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Nombreyapellido > input{
+    width: 250px;
+}
+select{
+    font-family: "Abhaya Libre", serif; 
+    border-radius: 4px;
+    padding: 10px;
+    width: 160px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+select option {
+    background-color:#D9D9D9;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Abhaya Libre", serif;  
+}
+
+h3{
+    margin: 0px;
+}
+
+input{
+    font-family: "Abhaya Libre", serif; 
+   border-radius: 4px;
+   padding: 10px;
+   margin: 10px;
+   border: solid 1px;
+    background-color: transparent;
+}
+
+::placeholder{
+    font-weight: bolder;
+}
+
+input[placeholder = 'Email'],input[placeholder = 'Telefono']{
+   width: 540px;
+}
+input[placeholder = 'Edad']{
+    width: 130px;
+ }
+ input[placeholder = 'Numero De Documento']{
+    width: 190px;
+ }
+
+ #GuardarRegistro{
+    margin-top: 10px;
+    background-color: black;
+    font-weight:700;
+    padding: 10px;
+    width: 150px;
+    color: aliceblue;
+    background: #000000;
+    border-radius: 22px; 
+ }
+ .infAcademica{
+    width: 210px;
+ }
+.asignaciones{
+    width: 155px;
+}
